@@ -1,4 +1,4 @@
-# 5HV-webshop-template (*vervang door de naam van je webshop*)
+# 5HV-webshop-template (OUI x OUI)
 
 Deze webshop is gebaseerd op het template voor 5HV van het Emmauscollege Rotterdam. <br>
 Je kunt het template zelf uitproberen in Replit: 
