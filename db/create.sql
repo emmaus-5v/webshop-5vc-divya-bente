@@ -11,6 +11,11 @@ CREATE TABLE products (
   price NUMERIC(10, 2)
 );
 
+CREATE TABLE Kleding (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  Beschrijving TEXT,
+  Maat VARCHAR (255),
+);
 
 --
 -- populate with data
