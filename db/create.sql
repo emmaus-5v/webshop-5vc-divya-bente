@@ -11,6 +11,7 @@ CREATE TABLE products (
   price NUMERIC(10, 2)
 );
 
+DROP TABLE IF EXISTS products;
 CREATE TABLE Kleding (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   Beschrijving TEXT,
