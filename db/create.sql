@@ -9,14 +9,16 @@ CREATE TABLE products (
   name VARCHAR(255),
   description TEXT,
   price NUMERIC(10, 2)
+  kleur_id INTEGER
 );
 
-
-CREATE TABLE Kleding (
+DROP TABLE IF EXISTS kleur; 
+CREATE TABLE kleur (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  Beschrijving TEXT,
-  Maat VARCHAR (255),
+  name VARCHAR(25),
+  
 );
+
 
 --
 -- populate with data
