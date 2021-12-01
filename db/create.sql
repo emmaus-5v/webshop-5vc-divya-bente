@@ -19,6 +19,13 @@ CREATE TABLE kleur (
   
 );
 
+DROP TABLE IF EXISTS catergorie; 
+CREATE TABLE categorie (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name VARCHAR(25),
+  
+);
+
 
 
 --
