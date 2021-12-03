@@ -19,11 +19,17 @@ CREATE TABLE kleur (
   
 );
 
-DROP TABLE IF EXISTS catergorie; 
+DROP TABLE IF EXISTS categorie;
 CREATE TABLE categorie (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  name VARCHAR(25),
-  
+  name VARCHAR (100),
+);
+
+DROP TABLE IF EXISTS product_categorie;
+CREATE TABLE product_categorie (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+ product_id INTEGER,
+ categorie_id INTEGER,
 );
 
 
