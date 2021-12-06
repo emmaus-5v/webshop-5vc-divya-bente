@@ -55,9 +55,9 @@ insert into products (name, description, code, price) values
 insert into products (name, description, code, price) values 
 ('Dress Divya', 'just as beautiful as divya', '693155505-7', 13.5);
 
-insert into products (name, description, code, price) values ('Kiss for Corliss, A (Almost a Bride)', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', '686928463-6', 14);
+insert into products (name, description, code, price) values 
+('Butterfly broek en trui', 'zwart joggingspak met vlinders', '686928463-6', 14);
 
-insert into products (name, description, code, price) values ('Velvet Goldmine', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
-
-Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', '492662523-7', 14);
+insert into products (name, description, code, price) values 
+('Hoodie New York multi color', 'comfortabele hoodie boyfriend material', '492662523-7', 14);
 
