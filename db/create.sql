@@ -61,3 +61,8 @@ insert into products (name, description, code, price) values
 insert into products (name, description, code, price) values 
 ('Hoodie New York multi color', 'comfortabele hoodie boyfriend material', '492662523-7', 14);
 
+insert into products (name, description, code, price) values 
+('joggingspak baby blue', 'zachte stof joggingspak met tanktop', '492662523-7', 14);
+
+insert into products (name, description, code, price) values 
+('bliksem joggingspak ', 'zwart joggingspak bliksem', '492662523-7', 14);
