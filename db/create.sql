@@ -12,6 +12,7 @@ CREATE TABLE products (
   kleur_id INTEGER
 );
 
+
 DROP TABLE IF EXISTS kleur; 
 CREATE TABLE kleur (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -94,4 +95,5 @@ INSERT INTO kledingstuk_kleur (kledingstuk_id, kleur_id) values (8, 3);
 INSERT INTO categorie (name) values ('tas');
 INSERT INTO categorie (name) values ('jurk');
 INSERT INTO categorie (name) values ('hoodie');
-INSERT INTO categorie (name) values ('joggingspak');
+INSERT INTO categorie (name) values ('joggingsbroek');
+
