@@ -27,18 +27,31 @@ CREATE TABLE product_kleur (
  kleur_id INTEGER
 );
 
+DROP TABLE IF EXISTS materiaal; 
+CREATE TABLE materiaal (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name VARCHAR(25)
+);
+
 DROP TABLE IF EXISTS categorie;
 CREATE TABLE categorie (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   name VARCHAR (100)
 );
 
-DROP TABLE IF EXISTS product_categorie;
-CREATE TABLE product_categorie (
+DROP TABLE IF EXISTS maat;
+CREATE TABLE maat (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
- product_id INTEGER,
- categorie_id INTEGER
+  name VARCHAR(25)
 );
+
+DROP TABLE IF EXISTS product_maat;
+CREATE TABLE product_maat (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  maat_id INTEGER,
+  product_id INTEGER
+);
+
 
 
 
@@ -83,14 +96,14 @@ INSERT INTO kleur (name, id) values ('paars', 4);
 INSERT INTO kleur (name, id) values ('baby-blauw', 5);
 INSERT INTO kleur (name, id) values ('bruin-beige', 6);
 
-INSERT INTO kledingstuk_kleur (kledingstuk_id, kleur_id) values (1, 1);
-INSERT INTO kledingstuk_kleur (kledingstuk_id, kleur_id) values (2, 2);
-INSERT INTO kledingstuk_kleur (kledingstuk_id, kleur_id) values (3, 3);
-INSERT INTO kledingstuk_kleur (kledingstuk_id, kleur_id) values (4, 4);
-INSERT INTO kledingstuk_kleur (kledingstuk_id, kleur_id) values (5, 3);
-INSERT INTO kledingstuk_kleur (kledingstuk_id, kleur_id) values (6, 6);
-INSERT INTO kledingstuk_kleur (kledingstuk_id, kleur_id) values (7, 5);
-INSERT INTO kledingstuk_kleur (kledingstuk_id, kleur_id) values (8, 3);
+INSERT INTO product_kleur (product_id, kleur_id) values (1, 1);
+INSERT INTO product_kleur (product_id, kleur_id) values (2, 2);
+INSERT INTO product_kleur (product_id, kleur_id) values (3, 3);
+INSERT INTO product_kleur (product_id, kleur_id) values (4, 4);
+INSERT INTO product_kleur (product_id, kleur_id) values (5, 3);
+INSERT INTO product_kleur (product_id, kleur_id) values (6, 6);
+INSERT INTO product_kleur (product_id, kleur_id) values (7, 5);
+INSERT INTO product_kleur (product_id, kleur_id) values (8, 3);
 
 INSERT INTO categorie (name) values ('tas');
 INSERT INTO categorie (name) values ('jurk');
