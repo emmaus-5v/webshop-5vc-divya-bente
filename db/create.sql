@@ -105,8 +105,18 @@ INSERT INTO product_kleur (product_id, kleur_id) values (6, 6);
 INSERT INTO product_kleur (product_id, kleur_id) values (7, 5);
 INSERT INTO product_kleur (product_id, kleur_id) values (8, 3);
 
+INSERT INTO materiaal (name, id) values ('katoen', 1);
+INSERT INTO materiaal (name, id) values ('polyester', 2);
+INSERT INTO materiaal (name, id) values ('satijn', 3);
+INSERT INTO materiaal (name, id) values ('wol', 4);
+
 INSERT INTO categorie (name) values ('tas');
 INSERT INTO categorie (name) values ('jurk');
 INSERT INTO categorie (name) values ('hoodie');
 INSERT INTO categorie (name) values ('joggingsbroek');
 
+INSERT INTO maat (name) values ('XS');
+INSERT INTO maat (name) values ('S');
+INSERT INTO maat (name) values ('M');
+INSERT INTO maat (name) values ('L');
+INSERT INTO maat (name) values ('XL');
