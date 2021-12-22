@@ -110,13 +110,30 @@ INSERT INTO materiaal (name, id) values ('polyester', 2);
 INSERT INTO materiaal (name, id) values ('satijn', 3);
 INSERT INTO materiaal (name, id) values ('wol', 4);
 
-INSERT INTO categorie (name) values ('tas');
-INSERT INTO categorie (name) values ('jurk');
-INSERT INTO categorie (name) values ('hoodie');
-INSERT INTO categorie (name) values ('joggingsbroek');
+INSERT INTO categorie (name, id) values ('tas', 1);
+INSERT INTO categorie (name, id) values ('jurk', 2);
+INSERT INTO categorie (name, id) values ('hoodie', 3);
+INSERT INTO categorie (name, id) values ('joggingsbroek', 4);
 
-INSERT INTO maat (name) values ('XS');
-INSERT INTO maat (name) values ('S');
-INSERT INTO maat (name) values ('M');
-INSERT INTO maat (name) values ('L');
-INSERT INTO maat (name) values ('XL');
+INSERT INTO maat (name, id) values ('XS', 1);
+INSERT INTO maat (name, id) values ('S', 2);
+INSERT INTO maat (name, id) values ('M', 3);
+INSERT INTO maat (name, id) values ('L', 4);
+INSERT INTO maat (name, id) values ('XL', 5);
+
+INSERT INTO product_maat (product_id, maat_id) values (1, 1);
+INSERT INTO product_maat (product_id, maat_id) values (1, 2);
+INSERT INTO product_maat (product_id, maat_id) values (1, 3);
+INSERT INTO product_maat (product_id, maat_id) values (1, 4);
+INSERT INTO product_maat (product_id, maat_id) values (1, 5);
+INSERT INTO product_maat (product_id, maat_id) values (2, 1);
+INSERT INTO product_maat (product_id, maat_id) values (2, 2);
+INSERT INTO product_maat (product_id, maat_id) values (2, 3);
+INSERT INTO product_maat (product_id, maat_id) values (2, 4);
+INSERT INTO product_maat (product_id, maat_id) values (2, 5);
+INSERT INTO product_maat (product_id, maat_id) values (3, 1);
+INSERT INTO product_maat (product_id, maat_id) values (3, 2);
+INSERT INTO product_maat (product_id, maat_id) values (3, 3);
+INSERT INTO product_maat (product_id, maat_id) values (3, 4);
+INSERT INTO product_maat (product_id, maat_id) values (3, 5);
+
