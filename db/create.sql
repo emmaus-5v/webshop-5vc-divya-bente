@@ -74,7 +74,7 @@ insert into products (name, description, code, price, kleur_id) values
  ('TankTop With Long Sleeves', 'beautiful tanktop sagegreen ', '445924201-X', 13.5, 3);
 
 insert into products (name, description, code, price, kleur_id) values 
-('Dress Divya', 'just as beautiful as divya', '693155505-7', 13.5,4);
+('Dress Divya', 'just as beautiful as divya', '693155505-7', 13.5, 4);
 
 insert into products (name, description, code, price, kleur_id) values 
 ('Butterfly broek en trui', 'zwart joggingspak met vlinders', '686928463-6', 14, 3);
@@ -89,21 +89,27 @@ insert into products (name, description, code, price, kleur_id) values
 ('bliksem joggingspak ', 'zwart joggingspak bliksem', '492662523-7', 14, 3);
 
 
-INSERT INTO kleur (name, id) values ('zwart-wit', 1);
-INSERT INTO kleur (name, id) values ('rood', 2);
-INSERT INTO kleur (name, id) values ('zwart', 3);
-INSERT INTO kleur (name, id) values ('paars', 4);
-INSERT INTO kleur (name, id) values ('baby-blauw', 5);
-INSERT INTO kleur (name, id) values ('bruin-beige', 6);
+INSERT INTO kleur (name, id) values ('zwart', 1);
+INSERT INTO kleur (name, id) values ('wit', 2);
+INSERT INTO kleur (name, id) values ('rood', 3);
+INSERT INTO kleur (name, id) values ('zwart', 4);
+INSERT INTO kleur (name, id) values ('paars', 5);
+INSERT INTO kleur (name, id) values ('baby-blauw', 6);
+INSERT INTO kleur (name, id) values ('bruin', 7);
+INSERT INTO kleur (name, id) values ('beige', 8);
 
 INSERT INTO product_kleur (product_id, kleur_id) values (1, 1);
-INSERT INTO product_kleur (product_id, kleur_id) values (2, 2);
-INSERT INTO product_kleur (product_id, kleur_id) values (3, 3);
-INSERT INTO product_kleur (product_id, kleur_id) values (4, 4);
+INSERT INTO product_kleur (product_id, kleur_id) values (1, 2);
+INSERT INTO product_kleur (product_id, kleur_id) values (2, 3);
+INSERT INTO product_kleur (product_id, kleur_id) values (3, 4);
+INSERT INTO product_kleur (product_id, kleur_id) values (4, 5);
 INSERT INTO product_kleur (product_id, kleur_id) values (5, 3);
-INSERT INTO product_kleur (product_id, kleur_id) values (6, 6);
-INSERT INTO product_kleur (product_id, kleur_id) values (7, 5);
-INSERT INTO product_kleur (product_id, kleur_id) values (8, 3);
+INSERT INTO product_kleur (product_id, kleur_id) values (5, 1);
+INSERT INTO product_kleur (product_id, kleur_id) values (6, 7);
+INSERT INTO product_kleur (product_id, kleur_id) values (6, 8);
+INSERT INTO product_kleur (product_id, kleur_id) values (7, 6);
+INSERT INTO product_kleur (product_id, kleur_id) values (8, 1);
+INSERT INTO product_kleur (product_id, kleur_id) values (8, 2);
 
 INSERT INTO materiaal (name, id) values ('katoen', 1);
 INSERT INTO materiaal (name, id) values ('polyester', 2);
