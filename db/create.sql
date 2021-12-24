@@ -68,7 +68,7 @@ CREATE TABLE product_maat (
 --
 
 insert into products (name, description, code, price, kleur_id, categorie_id, materiaal_id) values 
-('Oui x Oui Baquette Tas', 'leuke tas met koeien print', '816905633-0', 15.00, 1, 1, 4);
+('Oui x Oui Baquette Tas', 'leuke tas met koeien print', '816905633-0', 15.00, 1 , 1, 4);
 
 insert into products (name, description, code, price, kleur_id, categorie_id, materiaal_id) values 
 ('Dress Bente', 'mooie rode jurk', '077030122-3', 19.95, 2, 2, 1);
