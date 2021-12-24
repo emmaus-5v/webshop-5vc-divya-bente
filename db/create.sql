@@ -68,28 +68,28 @@ CREATE TABLE product_maat (
 --
 
 insert into products (name, description, code, price, kleur_id, categorie_id, materiaal_id) values 
-('Oui x Oui Baquette Tas', 'De originele Oui x Oui Baguette Tas met koeienprint. De tas heeft een zwarte band dat verstelbaar is.', '816905633-0', 15.00, 1 , 1, 4);
+('Oui x Oui Baquette Tas', 'De originele Oui x Oui Baguette Tas met koeienprint. De tas heeft een zwarte band dat verstelbaar is.', '816905633-0', 29.99, 1 , 1, 4);
 
 insert into products (name, description, code, price, kleur_id, categorie_id, materiaal_id) values 
-('Dress Bente', 'Een korte jurk met een vierkante halsopening met smal elastiek en smokwerk onder de borst. De jurk heeft korte pofmouwen met smal elastiek onderaan en een naad in de taille. Blinde ritssluiting aan de zijkant.', '077030122-3', 19.95, 2, 2, 1);
+('Dress Bente', 'Een korte jurk met een vierkante halsopening met smal elastiek en smokwerk onder de borst. De jurk heeft korte pofmouwen met smal elastiek onderaan en een naad in de taille. Blinde ritssluiting aan de zijkant.', '077030122-3', 24.95, 2, 2, 1);
 
 insert into products (name, description, code, price, kleur_id, categorie_id, materiaal_id) values
- ('TankTop - Long Sleeve', 'Een TankTop met een ronde halslijn, lange mouwen. ', '445924201-X', 13.5, 3, 4, 2);
+ ('TankTop - Long Sleeve', 'Een TankTop met een ronde halslijn, lange mouwen. ', '445924201-X', 19.50, 3, 4, 2);
 
 insert into products (name, description, code, price, kleur_id, categorie_id, materiaal_id) values 
-('Dress Divya', 'Een geweven jurk met een bloemen print. De jurk heeft spaghettibandjes en een scoop halslijn.', '693155505-7', 13.5, 4, 2, 1);
+('Dress Divya', 'Een geweven jurk met een bloemen print. De jurk heeft spaghettibandjes en een scoop halslijn.', '693155505-7', 24.95, 4, 2, 1);
 
 insert into products (name, description, code, price, kleur_id, categorie_id, materiaal_id) values 
-('Butterfly broek en trui', 'Zwart joggingspak met vlinder patroon op de linker broekspijp en op de mouwen. De broek heeft een elastische band en de trui heeft een capuchon.', '686928463-6', 14, 3, 3, 2);
+('Butterfly broek en trui', 'Zwart joggingspak met vlinder patroon op de linker broekspijp en op de mouwen. De broek heeft een elastische band en de trui heeft een capuchon.', '686928463-6', 24.50, 3, 3, 2);
 
 insert into products (name, description, code, price, kleur_id, categorie_id, materiaal_id) values 
-('Hoodie New York multi color', 'Hoodie met New York als print op de voorkant. de mouwen zijn een beige kleur en de torso heeft een diep bruine kleur. De hoodie heeft touwtjes van katoen en een buidel.', '492662523-7', 14, 6, 5, 3);
+('Hoodie New York multi color', 'Hoodie met New York als print op de voorkant. de mouwen zijn een beige kleur en de torso heeft een diep bruine kleur. De hoodie heeft touwtjes van katoen en een buidel.', '492662523-7', 19.99, 6, 5, 3);
 
 insert into products (name, description, code, price, kleur_id, categorie_id, materiaal_id) values 
-('Joggingspak baby blue', 'Set van tanktop met jogginsbroek met elastische band. ', '492662523-7', 14, 5, 3, 2);
+('Joggingspak baby blue', 'Set van tanktop met jogginsbroek met elastische band. ', '492662523-7', 14.00, 5, 3, 2);
 
 insert into products (name, description, code, price, kleur_id, categorie_id, materiaal_id) values 
-('Bliksem joggingspak', 'Set van trui en jogginsbroek met een bliksem patroon over het gehele set. Zowel de trui als de joggingsbroek hebben een elastische band. ', '492662523-7', 14, 3, 3, 2);
+('Bliksem joggingspak', 'Set van trui en jogginsbroek met een bliksem patroon over het gehele set. Zowel de trui als de joggingsbroek hebben een elastische band. ', '492662523-7', 24.50, 3, 3, 2);
 
 
 INSERT INTO kleur (name, id) values ('zwart', 1);
