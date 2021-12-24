@@ -10,6 +10,7 @@ CREATE TABLE products (
   description TEXT,
   price NUMERIC(10, 2),
   kleur_id INTEGER,
+  maat_id INTEGER,
   categorie_id INTEGER,
   materiaal_id INTEGER
 );
