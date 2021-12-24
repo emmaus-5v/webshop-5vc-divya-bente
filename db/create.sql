@@ -72,7 +72,7 @@ insert into products (name, description, code, price, kleur_id, categorie_id, ma
 ('Oui x Oui Baquette Tas', 'De originele Oui x Oui Baguette Tas met koeienprint. De tas heeft een zwarte band dat verstelbaar is.', '816905633-0', 29.99, 1 , 1, 4);
 
 insert into products (name, description, code, price, kleur_id, categorie_id, materiaal_id) values 
-('Dress Bente', 'Een korte jurk met een vierkante halsopening met smal elastiek en smokwerk onder de borst. De jurk heeft korte pofmouwen met smal elastiek onderaan en een naad in de taille. Blinde ritssluiting aan de zijkant.', '077030122-3', 24.95, 2, 2, 1);
+('Dress Bente', 'Een korte jurk met een vierkante halsopening met smal elastiek en smokwerk onder de borst. De jurk heeft korte pofmouwen met smal elastiek onderaan en een naad in de taille.', '077030122-3', 24.95, 2, 2, 1);
 
 insert into products (name, description, code, price, kleur_id, categorie_id, materiaal_id) values
  ('TankTop - Long Sleeve', 'Een TankTop met een ronde halslijn, lange mouwen. ', '445924201-X', 19.50, 3, 4, 2);
