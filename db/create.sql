@@ -9,7 +9,9 @@ CREATE TABLE products (
   name VARCHAR(255),
   description TEXT,
   price NUMERIC(10, 2),
-  kleur_id INTEGER
+  kleur_id INTEGER,
+  categorie_id INTEGER,
+  materiaal_id INTEGER
 );
 
 
@@ -64,29 +66,29 @@ CREATE TABLE product_maat (
 -- want different data? check: https://www.mockaroo.com/910b6c20
 --
 
-insert into products (name, description, code, price,kleur_id) values 
-('Oui x Oui Baquette Tas', 'leuke tas met koeien print', '816905633-0', 15.00, 1);
+insert into products (name, description, code, price, kleur_id, categorie_id ) values 
+('Oui x Oui Baquette Tas', 'leuke tas met koeien print', '816905633-0', 15.00, 1, 1);
 
-insert into products (name, description, code, price, kleur_id) values 
-('Dress Bente', 'mooie rode jurk', '077030122-3', 19.95,2);
+insert into products (name, description, code, price, kleur_id, categorie_id) values 
+('Dress Bente', 'mooie rode jurk', '077030122-3', 19.95, 2, 2);
 
-insert into products (name, description, code, price, kleur_id) values
- ('TankTop With Long Sleeves', 'beautiful tanktop sagegreen ', '445924201-X', 13.5, 3);
+insert into products (name, description, code, price, kleur_id, categorie_id) values
+ ('TankTop With Long Sleeves', 'beautiful tanktop sagegreen ', '445924201-X', 13.5, 3, 4);
 
-insert into products (name, description, code, price, kleur_id) values 
-('Dress Divya', 'just as beautiful as divya', '693155505-7', 13.5, 4);
+insert into products (name, description, code, price, kleur_id, categorie_id) values 
+('Dress Divya', 'just as beautiful as divya', '693155505-7', 13.5, 4, 2);
 
-insert into products (name, description, code, price, kleur_id) values 
-('Butterfly broek en trui', 'zwart joggingspak met vlinders', '686928463-6', 14, 3);
+insert into products (name, description, code, price, kleur_id, categorie_id) values 
+('Butterfly broek en trui', 'zwart joggingspak met vlinders', '686928463-6', 14, 3, 3);
 
-insert into products (name, description, code, price, kleur_id) values 
-('Hoodie New York multi color', 'comfortabele hoodie boyfriend material', '492662523-7', 14, 6);
+insert into products (name, description, code, price, kleur_id, categorie_id) values 
+('Hoodie New York multi color', 'comfortabele hoodie boyfriend material', '492662523-7', 14, 6, 5);
 
-insert into products (name, description, code, price, kleur_id) values 
-('joggingspak baby blue', 'zachte stof joggingspak met tanktop', '492662523-7', 14, 5);
+insert into products (name, description, code, price, kleur_id, categorie_id) values 
+('joggingspak baby blue', 'zachte stof joggingspak met tanktop', '492662523-7', 14, 5, 3);
 
-insert into products (name, description, code, price, kleur_id) values 
-('bliksem joggingspak ', 'zwart joggingspak bliksem', '492662523-7', 14, 3);
+insert into products (name, description, code, price, kleur_id, categorie_id) values 
+('bliksem joggingspak ', 'zwart joggingspak bliksem', '492662523-7', 14, 3, 3);
 
 
 INSERT INTO kleur (name, id) values ('zwart', 1);
@@ -118,8 +120,9 @@ INSERT INTO materiaal (name, id) values ('wol', 4);
 
 INSERT INTO categorie (name, id) values ('tas', 1);
 INSERT INTO categorie (name, id) values ('jurk', 2);
-INSERT INTO categorie (name, id) values ('hoodie', 3);
-INSERT INTO categorie (name, id) values ('joggingsbroek', 4);
+INSERT INTO categorie (name, id) values ('joggingspak', 3);
+INSERT INTO categorie (name, id) values ('longsleeve', 4);
+INSERT INTO categorie (name, id) values ('hoodie', 5);
 
 INSERT INTO maat (name, id) values ('XS', 1);
 INSERT INTO maat (name, id) values ('S', 2);
