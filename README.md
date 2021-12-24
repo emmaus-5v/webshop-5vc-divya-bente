@@ -7,7 +7,8 @@ of in Gitpod (gitpod is zonder mailen van orders en zonder permanent hosten):
 [Run on Gitpod](https://gitpod.io/#https://github.com/emmauscollege/5HV-webshop-template)
 
 ### In mijn webshop vind je: 
-- Kleding
+- Kleding, denk aan machtende joggingspakken, jurken, leuke tops :)
+
 ### Deze webshop is gemaakt door: 
 - Divya Raghoenandan
 - Bente de Boon
