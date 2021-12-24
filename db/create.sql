@@ -69,7 +69,7 @@ CREATE TABLE product_maat (
 --
 
 insert into products (name, description, code, price, kleur_id, categorie_id, materiaal_id) values 
-('Oui x Oui Baquette Tas', 'De originele Oui x Oui Baguette Tas met koeienprint. De tas heeft een zwarte band dat verstelbaar is.', '816905633-0', 29.99, 1 , 1, 4);
+('Oui x Oui Baquette Tas - Koeienprint', 'De originele Oui x Oui Baguette Tas met koeienprint. De tas heeft een zwarte band dat verstelbaar is.', '816905633-0', 29.99, 1 , 1, 4);
 
 insert into products (name, description, code, price, kleur_id, categorie_id, materiaal_id) values 
 ('Dress Bente', 'Een korte jurk met een vierkante halsopening met smal elastiek en smokwerk onder de borst. De jurk heeft korte pofmouwen met smal elastiek onderaan en een naad in de taille.', '077030122-3', 24.95, 2, 2, 1);
@@ -92,6 +92,11 @@ insert into products (name, description, code, price, kleur_id, categorie_id, ma
 insert into products (name, description, code, price, kleur_id, categorie_id, materiaal_id) values 
 ('Bliksem joggingspak', 'Set van trui en jogginsbroek met een bliksem patroon over het gehele set. Zowel de trui als de joggingsbroek hebben een elastische band. ', '492662523-7', 24.50, 3, 3, 2);
 
+insert into products (name, description, code, price, kleur_id, categorie_id, materiaal_id) values 
+('Oui x Oui Baquette Tas - Zebraprint', 'Set van tanktop met jogginsbroek met elastische band. ', '492662523-7', 14.00, 5, 3, 2);
+
+insert into products (name, description, code, price, kleur_id, categorie_id, materiaal_id) values 
+('tOui x Oui Baquette Tas - Bloemenprint', 'Set van tanktop met jogginsbroek met elastische band. ', '492662523-7', 14.00, 5, 3, 2);
 
 INSERT INTO kleur (name, id) values ('zwart', 1);
 INSERT INTO kleur (name, id) values ('wit', 2);
