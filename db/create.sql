@@ -10,6 +10,7 @@ CREATE TABLE products (
   description TEXT,
   price NUMERIC(10, 2),
   kleur_id INTEGER,
+  product_kleur_id INTEGER,
   maat_id INTEGER,
   categorie_id INTEGER,
   materiaal_id INTEGER
@@ -26,8 +27,8 @@ CREATE TABLE kleur (
 DROP TABLE IF EXISTS product_kleur; 
 CREATE TABLE product_kleur (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
- product_id INTEGER,
- kleur_id INTEGER
+  product_id INTEGER,
+  kleur_id INTEGER
 );
 
 DROP TABLE IF EXISTS materiaal; 
