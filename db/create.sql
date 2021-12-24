@@ -86,10 +86,10 @@ insert into products (name, description, code, price, kleur_id, categorie_id, ma
 ('Hoodie New York multi color', 'comfortabele hoodie boyfriend material', '492662523-7', 14, 6, 5, 3);
 
 insert into products (name, description, code, price, kleur_id, categorie_id, materiaal_id) values 
-('joggingspak baby blue', 'zachte stof joggingspak met tanktop', '492662523-7', 14, 5, 3, 2);
+('Joggingspak baby blue', 'zachte stof joggingspak met tanktop', '492662523-7', 14, 5, 3, 2);
 
 insert into products (name, description, code, price, kleur_id, categorie_id, materiaal_id) values 
-('bliksem joggingspak ', 'zwart joggingspak bliksem', '492662523-7', 14, 3, 3, 2);
+('Bliksem joggingspak ', 'zwart joggingspak bliksem', '492662523-7', 14, 3, 3, 2);
 
 
 INSERT INTO kleur (name, id) values ('zwart', 1);
