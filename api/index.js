@@ -57,7 +57,7 @@ function echoRequest(request, response) {
 function getCategories(request, response) {
   console.log('API ontvangt /api/categories/')
   // TODO: change query to make it return categories
-  const sqlOpdracht = db.prepare('SELECT * FROM products ORDER BY id ASC')
+  const sqlOpdracht = db.prepare('SELECT  maat.id AS maat_id, maat.name AS maat_name FROM product_maat LEFT OUTER JOIN maat ON maat.id = products.maat_id ORDER BY id ASC')
   const data = sqlOpdracht.all()
   // console.log(JSON.stringify(data, null, 2))
   response.status(200).send(data)
@@ -70,10 +70,10 @@ function getProducts(request, response) {
   const category_id = parseInt(request.query.category)
   let data = []
   if (category_id > 0) {
-    const sqlOpdracht = db.prepare('SELECT * FROM products WHERE category_id = ? ORDER BY id ASC')
+    const sqlOpdracht = db.prepare('SELECT * FROM products WHERE category_id = ? ORDER BY name ASC')
     data = sqlOpdracht.all(category_id)
   } else {
-    const sqlOpdracht = db.prepare('SELECT products.id AS id, products.code AS code, products.price AS price, products.description AS description, products.name AS name, kleur.id AS kleur_id, kleur.name AS kleur_name, maat.id AS maat_id, maat.name AS maat_name, materiaal.id AS materiaal_id, materiaal.name AS materiaal_name, categorie.id AS categorie_id, categorie.name AS categorie_name FROM products LEFT OUTER JOIN kleur ON kleur.id = products.kleur_id LEFT OUTER JOIN maat ON maat.id = products.maat_id LEFT OUTER JOIN materiaal ON materiaal.id = products.materiaal_id LEFT OUTER JOIN categorie ON categorie.id = products.categorie_id ORDER BY name ASC')
+    const sqlOpdracht = db.prepare('SELECT products.id AS id, products.code AS code, products.price AS price, products.description AS description, products.name AS name, maat.id AS maat_id, maat.name AS maat_name, materiaal.id AS materiaal_id, materiaal.name AS materiaal_name, categorie.id AS categorie_id, categorie.name AS categorie_name FROM products  LEFT OUTER JOIN maat ON maat.id = products.maat_id LEFT OUTER JOIN materiaal ON materiaal.id = products.materiaal_id LEFT OUTER JOIN categorie ON categorie.id = products.categorie_id ORDER BY name ASC')
     data = sqlOpdracht.all()
   }
   // console.log(JSON.stringify(data, null, 2))
