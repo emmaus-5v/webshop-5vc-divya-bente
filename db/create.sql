@@ -93,16 +93,16 @@ insert into products (name, description, code, price, categorie_id, materiaal_id
 ('Hoodie New York multi color', 'Hoodie met New York als print op de voorkant. de mouwen zijn een beige kleur en de torso heeft een diep bruine kleur. De hoodie heeft touwtjes van katoen en een buidel.', '492662523-7', 19.99, 5, 3);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id) values 
-('Joggingspak baby blue', 'Set van tanktop met jogginsbroek met elastische band. ', '492662523-7', 14.00, 3, 2);
+('Joggingspak Baby Blue', 'Set van tanktop met jogginsbroek met elastische band. ', '492662523-7', 14.00, 3, 2);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id) values 
-('Bliksem joggingspak', 'Set van trui en jogginsbroek met een bliksem patroon over het gehele set. Zowel de trui als de joggingsbroek hebben een elastische band. ', '492662523-7', 24.50,  3, 2);
+('Joggingspak Bliksem', 'Set van trui en jogginsbroek met een bliksem patroon over het gehele set. Zowel de trui als de joggingsbroek hebben een elastische band. ', '492662523-7', 24.50,  3, 2);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id) values 
-('Oui x Oui Baquette Tas - Zebraprint', 'Set van tanktop met jogginsbroek met elastische band. ', '492662523-7', 14.00, 3, 2);
+('Oui x Oui Baquette Tas - Zebraprint', 'De Oui x Oui Baguette Tas met zebraprint. De tas heeft een bijpassende zebraprint band dat verstelbaar is.', '036829013-7', 14.99, 1, 4);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id) values 
-('tOui x Oui Baquette Tas - Bloemenprint', 'Set van tanktop met jogginsbroek met elastische band. ', '492662523-7', 14.00, 3, 2);
+('Oui x Oui Baquette Tas - Bloemenprint', 'De Oui x Oui Baguette Tas met bloemenprint. De tas heeft een Madelief print over de gehele tas. De band is niet verstelbaar, wel afneembaar.', '176036297-2', 14.99, 3, 4);
 
 INSERT INTO kleur (name, id) values ('zwart', 1);
 INSERT INTO kleur (name, id) values ('wit', 2);
