@@ -78,40 +78,40 @@ CREATE TABLE model (
 
 -- hoofdtabel met info over de producten
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values 
-('Oui x Oui Baguette Tas - Koeienprint', 'De originele Oui x Oui Baguette Tas met koeienprint. Het eerste design dat is bedacht en uitgebracht in de Baguette tassen lijn. De tas heeft een zwarte band dat verstelbaar is. De tas is weer helemaal terug van weggeweest aangezien de Baguette Tas al in de jaren 90 en de vroege 2000. Nu kan je je eigen tas aanschaffen en hoef je niet de tas van je oma te lenen.', '816905633-0', 24.99, 1, 5, 3, 6);
+('Oui x Oui Baguette Tas - Koeienprint', 'De originele Oui x Oui Baguette Tas met koeienprint. Het eerste design dat is bedacht en uitgebracht in de Baguette tassen lijn. De tas heeft een zwarte band dat verstelbaar is. De tas is weer helemaal terug van weggeweest aangezien de Baguette Tas al in de jaren 90 en de vroege 2000. Nu kan je je eigen tas aanschaffen en hoef je niet de tas van je oma te lenen.', '816905633-0', 24.99, 1, 5, 3, 2);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values 
-('Dress Bente', 'Een korte jurk met een vierkante halsopening met smal elastiek en smokwerk onder de borst. De jurk heeft korte pofmouwen met smal elastiek onderaan en een naad in de taille.', '077030122-3', 24.95, 3, 1, 1, 1);
+('Dress Bente', 'Een korte jurk met een U-vormige halsopening met een opening dat is vastgenaaid met een touwtje dat een strik vormt op de borst. De jurk heeft korte pofmouwen met smal elastiek onderaan en een naad in de taille. Dit jurkje is perfect voor een mooie lente dag, of een zomerse dag. Zelfs kan je het jurkje combineren met een goeie legging/panty en kan je het dragen voor in de herst en winter met een jasje erover. Zoals je vaker ziet gebeuren komen trends terug, dit is het zelfde met de pofmouwen. Maak je trendt outfit compleet met dit jurkje!', '077030122-3', 24.95, 3, 1, 1, 1);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values
- ('TankTop - Long Sleeve', 'Een TankTop met een ronde halslijn, lange mouwen. Het accentueerd het lichaam, doordat het strech is.', '445924201-8', 19.50, 4, 2, 1, 1);
+ ('TankTop - Long Sleeve', 'Een TankTop met een ronde halslijn, lange mouwen. Het accentueerd het lichaam, doordat het gemaakt is van een strech stof. Het is heel zacht en beschadigt de huid niet zoals andere Long Sleeve TankTops van andere merken. Ook is het ideaal voor de wat koudere dagen, aangezien het warmhoudend is. Laat je niet misleiden doordat het strech is, dat het van een dunne materiaal gemaakt moet zijn.', '445924201-8', 19.50, 4, 2, 1, 1);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values 
-('Dress Divya', 'Een geweven jurk met een bloemen print. De jurk heeft spaghettibandjes en een scoop halslijn.', '693155505-7', 24.95, 2, 1, 1, 1);
+('Dress Divya', 'Een geweven jurk met een bloemen print. De jurk heeft spaghettibandjes en een scoop halslijn. Dit jurkje is perfect voor een mooie lente dag, of een zomerse dag. Perfect voor als je leuke activiteiten hebt met familie en/of vrienden of voor andere gelegenheden. Ook is het een prima jurkje voor in de herst, ik adviseer je wel om een jasje erover te dragen aangezien het spaghettibandjes heeft!', '693155505-7', 24.95, 2, 1, 1, 1);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values 
-('Broek en Trui - Butterfly', 'Zwart joggingspak met vlinder patroon op de linker broekspijp en op de mouwen. De broek heeft een elastische band en de trui heeft een capuchon.', '686928463-6', 24.50, 3, 2, 2, 1);
+('Broek en Vest - Butterfly', 'Zwart joggingspak met vlinder patroon op de linker broekspijp en op de mouwen. De broek heeft een elastische band en de vest heeft een capuchon. Dit setje is perfect voor als je zoekt naar een comfortabele en schattige broek en vest. Gezellig voor knus in huis of voor als je een slaapfeestje ergens hebt!', '686928463-6', 24.50, 3, 2, 2, 1);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values 
-('Hoodie New York multi color', 'Hoodie met New York als print op de voorkant. de mouwen zijn een beige kleur en de torso heeft een diep bruine kleur. De hoodie heeft touwtjes van katoen en een buidel. De binnenkant heeft een zachte voering van wol zodat je lekker warm blijft. ', '492662523-5', 19.99, 2, 3, 2, 1);
+('Hoodie New York multi color', 'Hoodie met New York als print op de voorkant. de mouwen zijn een beige kleur en de torso heeft een diep bruine kleur. De hoodie heeft touwtjes van katoen en een buidel. De binnenkant heeft een zachte voering van wol zodat je lekker warm blijft. Oversized kleding is een trend die voor een tijd blijft hangen, dus om deze hoodie te kopen weet je zeker dat je er  een lange tijd mee kan. Zelfs als je niet een trend volger bent is dit een perfecte keuze voor je. Omdat het een zachte binnenkant heeft ben je altijd comfortabel als je het draagt! ', '492662523-5', 19.99, 2, 3, 2, 1);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values 
-('Joggingspak - Baby Blue', 'Set van tanktop met jogginsbroek met elastische band. ', '492662523-3', 14.00, 3, 2, 1, 1);
+('Joggingspak - Baby Blue', 'Set van tanktop met jogginsbroek met elastische band. In dit setje heb je een zachte jogginspak met een tanktop. Dit is perfect voor als je een matchende joggingsbroek zoekt met een tanktop die precies in kleur overeenkomt, wat best moeilijk kan zijn om te vinden. Zowel de top als de broek zijn superzacht en voel je je er heel prettig in!', '492662523-3', 14.00, 3, 2, 1, 1);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values 
-('Joggingspak - Bliksem', 'Set van trui en jogginsbroek met een bliksem patroon over het gehele set. Zowel de trui als de joggingsbroek hebben een elastische band. ', '492662523-8', 24.50,  3, 2, 1, 1);
+('Joggingspak - Bliksem', 'Set van trui en jogginsbroek met een bliksem patroon over het gehele set. Zowel de trui als de joggingsbroek hebben een elastische band. Bij dit setje krijg je een broek en trui dat over het geheel bliksemschichten zijn. Het is een comfortabele set dat een zachte binnenkant heeft en je warm houdt. Perfect voor de koude winter dagen. Ook is het leuk om dit als cadeau te geven aan een vriend(in) te geven dat een Harry Potter fan is door de bliksemschichten!', '492662523-8', 24.50,  3, 2, 1, 1);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values 
-('Oui x Oui Baguette Tas - Zebraprint', 'De Oui x Oui Baguette Tas met zebraprint. De tas heeft een bijpassende zebraprint band dat verstelbaar is. De tas is weer helemaal terug van weggeweest aangezien de Baguette Tas al in de jaren 90 en de vroege 2000. Nu kan je je eigen tas aanschaffen en hoef je niet de tas van je oma te lenen.', '036829013-7', 14.99, 1, 5, 3, 6);
+('Oui x Oui Baguette Tas - Zebraprint', 'De Oui x Oui Baguette Tas met zebraprint. De tas heeft een bijpassende zebraprint band dat verstelbaar is. De tas is weer helemaal terug van weggeweest aangezien de Baguette Tas al in de jaren 90 en de vroege 2000. Nu kan je je eigen tas aanschaffen en hoef je niet de tas van je oma te lenen.', '036829013-7', 14.99, 1, 5, 3, 2);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values 
-('Oui x Oui Baguette Tas - Bloemenprint', 'De Oui x Oui Baguette Tas met bloemenprint. De tas heeft een Madelief print over de gehele tas. De band is niet verstelbaar, wel afneembaar. De tas is weer helemaal terug van weggeweest aangezien de Baguette Tas al in de jaren 90 en de vroege 2000. Nu kan je je eigen tas aanschaffen en hoef je niet de tas van je oma te lenen.', '176036297-2', 14.99, 1, 5, 3, 6);
+('Oui x Oui Baguette Tas - Bloemenprint', 'De Oui x Oui Baguette Tas met bloemenprint. De tas heeft een Madelief print over de gehele tas. De band is niet verstelbaar, wel afneembaar. De tas is weer helemaal terug van weggeweest aangezien de Baguette Tas al in de jaren 90 en de vroege 2000. Nu kan je je eigen tas aanschaffen en hoef je niet de tas van je oma te lenen.', '176036297-2', 14.99, 1, 5, 3, 2);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values
-('CropTop - Butterfly', 'CropTop met licht blauwe strepen op de uiteinde van de mouwen en onderaan de Top. Vlinder midden op de Top met blauwe details. Aangezien het een CropTop is komt de Top boven de navel te zitten, het is niet verstelbaar in hoogte. Het is gemaakt van katoen, dat Fairtrade is en duurzaam geproduceerd wordt.', '418206971-9', 12.50, 4, 1, 1, 1);
+('CropTop - Butterfly', 'CropTop met licht blauwe strepen op de uiteinde van de mouwen en onderaan de Top. Vlinder midden op de Top met blauwe details. Aangezien het een CropTop is komt de Top boven de navel te zitten, het is niet verstelbaar in hoogte. Het is gemaakt van katoen, dat Fairtrade is en duurzaam geproduceerd wordt. Dit is een hele leuke top doordat het heel simpel is gehouden, maar toch genoeg detail heeft dat je er goed naar moet kijken. De vlinder op de voorkant en de blauwe randen zorgen voor een leuke look!', '418206971-9', 12.50, 4, 1, 1, 1);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values
-('CropTop - Dahlia', 'CropTop met een bloemenprint over de hele Top. De bloem is een blauwe Dahlia. De top is verstelbaar door middel van een koort in het midden van de CropTop. Het kan korter of juist langer worden gemaakt, dat is helemaal over aan de persoon zelf.', '321069441-2', 14.50, 4, 2, 1, 1);
+('CropTop - Dahlia', 'CropTop met een bloemenprint over de hele Top. De bloem is een blauwe Dahlia. De top is verstelbaar door middel van een koort in het midden van de CropTop. Het kan korter of juist langer worden gemaakt, dat is helemaal over aan de persoon zelf. Op deze manier kan je helemaal zelf bepalen hoe je je top draagt en kan je verschillende looks maken. het heeft een V-hals dat niet te diep is uitgesneden. Perfect voor allerlei gelegenheden!', '321069441-2', 14.50, 4, 2, 1, 1);
 
 -- kleuren tabel
 INSERT INTO kleur (name, id) values ('zwart', 1);
@@ -153,6 +153,7 @@ INSERT INTO categorie (name, id) values ('hoodie', 5);
 
 -- maten die beschikbaar zijn voor elk product
 INSERT INTO maat (name, id) values ('XS/S/M/L/XL', 1);
+INSERT INTO maat (name, id) values ('One Size', 2);
 
 -- we hebben geprobeerd met de onderstaande gegevens geprobeerd die in een n:m relatie te brengen, maar het ging fout in de api.
 --INSERT INTO maat (name, id) values ('S', 2);
