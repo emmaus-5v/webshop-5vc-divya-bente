@@ -86,7 +86,7 @@ function getProductById(request, response) {
 
   let data = []
   const product_id = parseInt(request.params.id)
-  const sqlOpdracht = db.prepare('SELECT products.id, products.code, products.name, products.description, products.price, maat.name, categorie.name, materiaal.name, model.name FROM products LEFT OUTER JOIN maat ON maat.id = products.maat_id LEFT OUTER JOIN categorie.id = products.categorie_id LEFT OUTER JOIN model.id = products.model_id WHERE id = ?')
+  const sqlOpdracht = db.prepare('SELECT * FROM products WHERE products.id = ? ORDER BY name ASC')
   data = sqlOpdracht.all(product_id)
   response.status(200).json(data[0])
 }
