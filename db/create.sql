@@ -83,7 +83,7 @@ insert into products (name, description, code, price, categorie_id, materiaal_id
 ('Dress Bente', 'Een korte jurk met een vierkante halsopening met smal elastiek en smokwerk onder de borst. De jurk heeft korte pofmouwen met smal elastiek onderaan en een naad in de taille.', '077030122-3', 24.95, 2, 1, 1, 2);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values
-('TankTop - Long Sleeve', 'Een TankTop met een ronde halslijn, lange mouwen. Het accentueerd het lichaam, doordat het strech is.', '445924201-8', 19.50, 4, 2, 1, 2);
+ ('TankTop - Long Sleeve', 'Een TankTop met een ronde halslijn, lange mouwen. Het accentueerd het lichaam, doordat het strech is.', '445924201-8', 19.50, 4, 2, 1, 2);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values 
 ('Dress Divya', 'Een geweven jurk met een bloemen print. De jurk heeft spaghettibandjes en een scoop halslijn.', '693155505-7', 24.95, 2, 1, 1, 2);
