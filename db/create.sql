@@ -81,7 +81,7 @@ insert into products (name, description, code, price, categorie_id, materiaal_id
 ('Oui x Oui Baquette Tas - Koeienprint', 'De originele Oui x Oui Baguette Tas met koeienprint. De tas heeft een zwarte band dat verstelbaar is.', '816905633-0', 24.99, 1, 5, 3, 6);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values 
-('Dress Bente', 'Een korte jurk met een vierkante halsopening met smal elastiek en smokwerk onder de borst. De jurk heeft korte pofmouwen met smal elastiek onderaan en een naad in de taille.', '077030122-3', 24.95, 2, 1, 1, 2);
+('Dress Bente', 'Een korte jurk met een vierkante halsopening met smal elastiek en smokwerk onder de borst. De jurk heeft korte pofmouwen met smal elastiek onderaan en een naad in de taille.', '077030122-3', 24.95, 3, 1, 1, 2);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values
  ('TankTop - Long Sleeve', 'Een TankTop met een ronde halslijn, lange mouwen. Het accentueerd het lichaam, doordat het strech is.', '445924201-8', 19.50, 4, 2, 1, 2);
@@ -93,13 +93,13 @@ insert into products (name, description, code, price, categorie_id, materiaal_id
 ('Broek en Trui - Butterfly', 'Zwart joggingspak met vlinder patroon op de linker broekspijp en op de mouwen. De broek heeft een elastische band en de trui heeft een capuchon.', '686928463-6', 24.50, 3, 2, 2, 3);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values 
-('Hoodie New York multi color', 'Hoodie met New York als print op de voorkant. de mouwen zijn een beige kleur en de torso heeft een diep bruine kleur. De hoodie heeft touwtjes van katoen en een buidel.', '492662523-5', 19.99, 5, 3, 2, 3);
+('Hoodie New York multi color', 'Hoodie met New York als print op de voorkant. de mouwen zijn een beige kleur en de torso heeft een diep bruine kleur. De hoodie heeft touwtjes van katoen en een buidel. De binnenkant heeft een zachte voering van wol zodat je lekker warm blijft. ', '492662523-5', 19.99, 2, 3, 2, 3);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values 
-('Joggingspak - Baby Blue', 'Set van tanktop met jogginsbroek met elastische band. ', '492662523-3', 14.00, 3, 2, 1, 3);
+('Joggingspak - Baby Blue', 'Set van tanktop met jogginsbroek met elastische band. ', '492662523-3', 14.00, 3, 2, 1, 2);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values 
-('Joggingspak - Bliksem', 'Set van trui en jogginsbroek met een bliksem patroon over het gehele set. Zowel de trui als de joggingsbroek hebben een elastische band. ', '492662523-8', 24.50,  3, 2, 1, 3);
+('Joggingspak - Bliksem', 'Set van trui en jogginsbroek met een bliksem patroon over het gehele set. Zowel de trui als de joggingsbroek hebben een elastische band. ', '492662523-8', 24.50,  3, 2, 1, 2);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values 
 ('Oui x Oui Baquette Tas - Zebraprint', 'De Oui x Oui Baguette Tas met zebraprint. De tas heeft een bijpassende zebraprint band dat verstelbaar is.', '036829013-7', 14.99, 1, 5, 3, 6);
