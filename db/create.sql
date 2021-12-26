@@ -83,28 +83,34 @@ insert into products (name, description, code, price, categorie_id, materiaal_id
 ('Dress Bente', 'Een korte jurk met een vierkante halsopening met smal elastiek en smokwerk onder de borst. De jurk heeft korte pofmouwen met smal elastiek onderaan en een naad in de taille.', '077030122-3', 24.95, 2, 1, 1, 2);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values
- ('TankTop - Long Sleeve', 'Een TankTop met een ronde halslijn, lange mouwen. ', '445924201-X', 19.50, 4, 2, 1, 2);
+('TankTop - Long Sleeve', 'Een TankTop met een ronde halslijn, lange mouwen. Het accentueerd het lichaam, doordat het strech is.', '445924201-8', 19.50, 4, 2, 1, 2);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values 
 ('Dress Divya', 'Een geweven jurk met een bloemen print. De jurk heeft spaghettibandjes en een scoop halslijn.', '693155505-7', 24.95, 2, 1, 1, 2);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values 
-('Butterfly broek en trui', 'Zwart joggingspak met vlinder patroon op de linker broekspijp en op de mouwen. De broek heeft een elastische band en de trui heeft een capuchon.', '686928463-6', 24.50, 3, 2, 2, 3);
+('Broek en Trui - Butterfly', 'Zwart joggingspak met vlinder patroon op de linker broekspijp en op de mouwen. De broek heeft een elastische band en de trui heeft een capuchon.', '686928463-6', 24.50, 3, 2, 2, 3);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values 
 ('Hoodie New York multi color', 'Hoodie met New York als print op de voorkant. de mouwen zijn een beige kleur en de torso heeft een diep bruine kleur. De hoodie heeft touwtjes van katoen en een buidel.', '492662523-5', 19.99, 5, 3, 2, 3);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values 
-('Joggingspak Baby Blue', 'Set van tanktop met jogginsbroek met elastische band. ', '492662523-3', 14.00, 3, 2, 1, 3);
+('Joggingspak - Baby Blue', 'Set van tanktop met jogginsbroek met elastische band. ', '492662523-3', 14.00, 3, 2, 1, 3);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values 
-('Joggingspak Bliksem', 'Set van trui en jogginsbroek met een bliksem patroon over het gehele set. Zowel de trui als de joggingsbroek hebben een elastische band. ', '492662523-8', 24.50,  3, 2, 1, 3);
+('Joggingspak - Bliksem', 'Set van trui en jogginsbroek met een bliksem patroon over het gehele set. Zowel de trui als de joggingsbroek hebben een elastische band. ', '492662523-8', 24.50,  3, 2, 1, 3);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values 
 ('Oui x Oui Baquette Tas - Zebraprint', 'De Oui x Oui Baguette Tas met zebraprint. De tas heeft een bijpassende zebraprint band dat verstelbaar is.', '036829013-7', 14.99, 1, 5, 3, 6);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values 
 ('Oui x Oui Baquette Tas - Bloemenprint', 'De Oui x Oui Baguette Tas met bloemenprint. De tas heeft een Madelief print over de gehele tas. De band is niet verstelbaar, wel afneembaar.', '176036297-2', 14.99, 1, 5, 3, 6);
+
+insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values
+('CropTop - Butterfly', 'CropTop met licht blauwe strepen op de uiteinde van de mouwen en onderaan de Top. Vlinder midden op de Top met blauwe details.', '418206971-9', 19.50, 4, 2, 1, 2);
+
+insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values
+('CropTop - Daisy', 'CropTop met een bloemenprint over de hele Top. De bloem is een blauwe Dahlia.', '321069441-2', 19.50, 4, 2, 1, 2);
 
 INSERT INTO kleur (name, id) values ('zwart', 1);
 INSERT INTO kleur (name, id) values ('wit', 2);
