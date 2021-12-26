@@ -96,7 +96,7 @@ insert into products (name, description, code, price, categorie_id, materiaal_id
 ('Oui x Oui Baquette Tas - Zebraprint', 'De Oui x Oui Baguette Tas met zebraprint. De tas heeft een bijpassende zebraprint band dat verstelbaar is.', '036829013-7', 14.99, 1, 4);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id) values 
-('tOui x Oui Baquette Tas - Bloemenprint', 'De Oui x Oui Baguette Tas met bloemenprint. De tas heeft een Madelief print over de gehele tas. De band is niet verstelbaar, wel afneembaar.', '176036297-2', 14.99, 3, 4);
+('Oui x Oui Baquette Tas - Bloemenprint', 'De Oui x Oui Baguette Tas met bloemenprint. De tas heeft een Madelief print over de gehele tas. De band is niet verstelbaar, wel afneembaar.', '176036297-2', 14.99, 3, 4);
 
 INSERT INTO kleur (name, id) values ('zwart', 1);
 INSERT INTO kleur (name, id) values ('wit', 2);
