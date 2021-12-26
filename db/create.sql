@@ -78,40 +78,40 @@ CREATE TABLE model (
 
 -- hoofdtabel met info over de producten
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values 
-('Oui x Oui Baquette Tas - Koeienprint', 'De originele Oui x Oui Baguette Tas met koeienprint. De tas heeft een zwarte band dat verstelbaar is.', '816905633-0', 24.99, 1, 5, 3, 6);
+('Oui x Oui Baguette Tas - Koeienprint', 'De originele Oui x Oui Baguette Tas met koeienprint. Het eerste design dat is bedacht en uitgebracht in de Baguette tassen lijn. De tas heeft een zwarte band dat verstelbaar is. De tas is weer helemaal terug van weggeweest aangezien de Baguette Tas al in de jaren 90 en de vroege 2000. Nu kan je je eigen tas aanschaffen en hoef je niet de tas van je oma te lenen.', '816905633-0', 24.99, 1, 5, 3, 6);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values 
-('Dress Bente', 'Een korte jurk met een vierkante halsopening met smal elastiek en smokwerk onder de borst. De jurk heeft korte pofmouwen met smal elastiek onderaan en een naad in de taille.', '077030122-3', 24.95, 3, 1, 1, 2);
+('Dress Bente', 'Een korte jurk met een vierkante halsopening met smal elastiek en smokwerk onder de borst. De jurk heeft korte pofmouwen met smal elastiek onderaan en een naad in de taille.', '077030122-3', 24.95, 3, 1, 1, 1);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values
- ('TankTop - Long Sleeve', 'Een TankTop met een ronde halslijn, lange mouwen. Het accentueerd het lichaam, doordat het strech is.', '445924201-8', 19.50, 4, 2, 1, 2);
+ ('TankTop - Long Sleeve', 'Een TankTop met een ronde halslijn, lange mouwen. Het accentueerd het lichaam, doordat het strech is.', '445924201-8', 19.50, 4, 2, 1, 1);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values 
-('Dress Divya', 'Een geweven jurk met een bloemen print. De jurk heeft spaghettibandjes en een scoop halslijn.', '693155505-7', 24.95, 2, 1, 1, 2);
+('Dress Divya', 'Een geweven jurk met een bloemen print. De jurk heeft spaghettibandjes en een scoop halslijn.', '693155505-7', 24.95, 2, 1, 1, 1);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values 
-('Broek en Trui - Butterfly', 'Zwart joggingspak met vlinder patroon op de linker broekspijp en op de mouwen. De broek heeft een elastische band en de trui heeft een capuchon.', '686928463-6', 24.50, 3, 2, 2, 3);
+('Broek en Trui - Butterfly', 'Zwart joggingspak met vlinder patroon op de linker broekspijp en op de mouwen. De broek heeft een elastische band en de trui heeft een capuchon.', '686928463-6', 24.50, 3, 2, 2, 1);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values 
-('Hoodie New York multi color', 'Hoodie met New York als print op de voorkant. de mouwen zijn een beige kleur en de torso heeft een diep bruine kleur. De hoodie heeft touwtjes van katoen en een buidel. De binnenkant heeft een zachte voering van wol zodat je lekker warm blijft. ', '492662523-5', 19.99, 2, 3, 2, 3);
+('Hoodie New York multi color', 'Hoodie met New York als print op de voorkant. de mouwen zijn een beige kleur en de torso heeft een diep bruine kleur. De hoodie heeft touwtjes van katoen en een buidel. De binnenkant heeft een zachte voering van wol zodat je lekker warm blijft. ', '492662523-5', 19.99, 2, 3, 2, 1);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values 
-('Joggingspak - Baby Blue', 'Set van tanktop met jogginsbroek met elastische band. ', '492662523-3', 14.00, 3, 2, 1, 2);
+('Joggingspak - Baby Blue', 'Set van tanktop met jogginsbroek met elastische band. ', '492662523-3', 14.00, 3, 2, 1, 1);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values 
-('Joggingspak - Bliksem', 'Set van trui en jogginsbroek met een bliksem patroon over het gehele set. Zowel de trui als de joggingsbroek hebben een elastische band. ', '492662523-8', 24.50,  3, 2, 1, 2);
+('Joggingspak - Bliksem', 'Set van trui en jogginsbroek met een bliksem patroon over het gehele set. Zowel de trui als de joggingsbroek hebben een elastische band. ', '492662523-8', 24.50,  3, 2, 1, 1);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values 
-('Oui x Oui Baquette Tas - Zebraprint', 'De Oui x Oui Baguette Tas met zebraprint. De tas heeft een bijpassende zebraprint band dat verstelbaar is.', '036829013-7', 14.99, 1, 5, 3, 6);
+('Oui x Oui Baguette Tas - Zebraprint', 'De Oui x Oui Baguette Tas met zebraprint. De tas heeft een bijpassende zebraprint band dat verstelbaar is. De tas is weer helemaal terug van weggeweest aangezien de Baguette Tas al in de jaren 90 en de vroege 2000. Nu kan je je eigen tas aanschaffen en hoef je niet de tas van je oma te lenen.', '036829013-7', 14.99, 1, 5, 3, 6);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values 
-('Oui x Oui Baquette Tas - Bloemenprint', 'De Oui x Oui Baguette Tas met bloemenprint. De tas heeft een Madelief print over de gehele tas. De band is niet verstelbaar, wel afneembaar.', '176036297-2', 14.99, 1, 5, 3, 6);
+('Oui x Oui Baguette Tas - Bloemenprint', 'De Oui x Oui Baguette Tas met bloemenprint. De tas heeft een Madelief print over de gehele tas. De band is niet verstelbaar, wel afneembaar. De tas is weer helemaal terug van weggeweest aangezien de Baguette Tas al in de jaren 90 en de vroege 2000. Nu kan je je eigen tas aanschaffen en hoef je niet de tas van je oma te lenen.', '176036297-2', 14.99, 1, 5, 3, 6);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values
-('CropTop - Butterfly', 'CropTop met licht blauwe strepen op de uiteinde van de mouwen en onderaan de Top. Vlinder midden op de Top met blauwe details.', '418206971-9', 19.50, 4, 2, 1, 2);
+('CropTop - Butterfly', 'CropTop met licht blauwe strepen op de uiteinde van de mouwen en onderaan de Top. Vlinder midden op de Top met blauwe details. Aangezien het een CropTop is komt de Top boven de navel te zitten, het is niet verstelbaar in hoogte. Het is gemaakt van katoen, dat Fairtrade is en duurzaam geproduceerd wordt.', '418206971-9', 12.50, 4, 1, 1, 1);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values
-('CropTop - Daisy', 'CropTop met een bloemenprint over de hele Top. De bloem is een blauwe Dahlia.', '321069441-2', 19.50, 4, 2, 1, 2);
+('CropTop - Dahlia', 'CropTop met een bloemenprint over de hele Top. De bloem is een blauwe Dahlia. De top is verstelbaar door middel van een koort in het midden van de CropTop. Het kan korter of juist langer worden gemaakt, dat is helemaal over aan de persoon zelf.', '321069441-2', 14.50, 4, 2, 1, 1);
 
 -- kleuren tabel
 INSERT INTO kleur (name, id) values ('zwart', 1);
@@ -151,13 +151,15 @@ INSERT INTO categorie (name, id) values ('joggingspak', 3);
 INSERT INTO categorie (name, id) values ('longsleeve', 4);
 INSERT INTO categorie (name, id) values ('hoodie', 5);
 
--- maten die bij de producten horen
-INSERT INTO maat (name, id) values ('XS', 1);
-INSERT INTO maat (name, id) values ('S', 2);
-INSERT INTO maat (name, id) values ('M', 3);
-INSERT INTO maat (name, id) values ('L', 4);
-INSERT INTO maat (name, id) values ('XL', 5);
-INSERT INTO maat (name, id) values ('One Size', 6);
+-- maten die beschikbaar zijn voor elk product
+INSERT INTO maat (name, id) values ('XS/S/M/L/XL', 1);
+
+-- we hebben geprobeerd met de onderstaande gegevens geprobeerd die in een n:m relatie te brengen, maar het ging fout in de api.
+--INSERT INTO maat (name, id) values ('S', 2);
+--INSERT INTO maat (name, id) values ('M', 3);
+--INSERT INTO maat (name, id) values ('L', 4);
+--INSERT INTO maat (name, id) values ('XL', 5);
+--INSERT INTO maat (name, id) values ('One Size', 6);
 
 -- dit is voor de n:m relatie je hebt meerdere producten die meerdere maten kunnen hebben (niet af is moeilijk)
 INSERT INTO product_maat (product_id, maat_id) values (1, 1);
