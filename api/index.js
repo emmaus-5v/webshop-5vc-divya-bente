@@ -57,7 +57,7 @@ function echoRequest(request, response) {
 function getCategories(request, response) {
   console.log('API ontvangt /api/categories/')
   // TODO: change query to make it return categories
-  const sqlOpdracht = db.prepare('SELECT * FROM products LEFT OUTER JOIN product_maat ON product_maat.id = products.product_maat_id ORDER BY id ASC')
+  const sqlOpdracht = db.prepare('SELECT * FROM maat ORDER BY name ASC')
   const data = sqlOpdracht.all()
   // console.log(JSON.stringify(data, null, 2))
   response.status(200).send(data)
