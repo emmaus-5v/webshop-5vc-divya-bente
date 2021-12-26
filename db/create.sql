@@ -76,6 +76,7 @@ CREATE TABLE model (
 -- want different data? check: https://www.mockaroo.com/910b6c20
 --
 
+-- hoofdtabel met info over de producten
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values 
 ('Oui x Oui Baquette Tas - Koeienprint', 'De originele Oui x Oui Baguette Tas met koeienprint. De tas heeft een zwarte band dat verstelbaar is.', '816905633-0', 24.99, 1, 5, 3, 6);
 
@@ -112,6 +113,7 @@ insert into products (name, description, code, price, categorie_id, materiaal_id
 insert into products (name, description, code, price, categorie_id, materiaal_id, model_id, maat_id) values
 ('CropTop - Daisy', 'CropTop met een bloemenprint over de hele Top. De bloem is een blauwe Dahlia.', '321069441-2', 19.50, 4, 2, 1, 2);
 
+-- kleuren tabel
 INSERT INTO kleur (name, id) values ('zwart', 1);
 INSERT INTO kleur (name, id) values ('wit', 2);
 INSERT INTO kleur (name, id) values ('rood', 3);
@@ -121,6 +123,7 @@ INSERT INTO kleur (name, id) values ('baby-blauw', 6);
 INSERT INTO kleur (name, id) values ('bruin', 7);
 INSERT INTO kleur (name, id) values ('beige', 8);
 
+-- de kleuren die bij producten horen tabel
 INSERT INTO product_kleur (product_id, kleur_id) values (1, 1);
 INSERT INTO product_kleur (product_id, kleur_id) values (1, 2);
 INSERT INTO product_kleur (product_id, kleur_id) values (2, 3);
@@ -134,18 +137,21 @@ INSERT INTO product_kleur (product_id, kleur_id) values (7, 6);
 INSERT INTO product_kleur (product_id, kleur_id) values (8, 1);
 INSERT INTO product_kleur (product_id, kleur_id) values (8, 2);
 
+-- materiaal die de producten hebben tabel
 INSERT INTO materiaal (name, id) values ('katoen', 1);
 INSERT INTO materiaal (name, id) values ('polyester', 2);
 INSERT INTO materiaal (name, id) values ('satijn', 3);
 INSERT INTO materiaal (name, id) values ('wol', 4);
 INSERT INTO materiaal (name, id) values ('nep leer', 5);
 
+-- categorie tabel waar de producten bij horen
 INSERT INTO categorie (name, id) values ('tas', 1);
 INSERT INTO categorie (name, id) values ('jurk', 2);
 INSERT INTO categorie (name, id) values ('joggingspak', 3);
 INSERT INTO categorie (name, id) values ('longsleeve', 4);
 INSERT INTO categorie (name, id) values ('hoodie', 5);
 
+-- maten die bij de producten horen
 INSERT INTO maat (name, id) values ('XS', 1);
 INSERT INTO maat (name, id) values ('S', 2);
 INSERT INTO maat (name, id) values ('M', 3);
@@ -153,6 +159,7 @@ INSERT INTO maat (name, id) values ('L', 4);
 INSERT INTO maat (name, id) values ('XL', 5);
 INSERT INTO maat (name, id) values ('One Size', 6);
 
+-- dit is voor de n:m relatie je hebt meerdere producten die meerdere maten kunnen hebben (niet af is moeilijk)
 INSERT INTO product_maat (product_id, maat_id) values (1, 1);
 INSERT INTO product_maat (product_id, maat_id) values (1, 2);
 INSERT INTO product_maat (product_id, maat_id) values (1, 3);
@@ -194,6 +201,7 @@ INSERT INTO product_maat (product_id, maat_id) values (8, 3);
 INSERT INTO product_maat (product_id, maat_id) values (8, 4);
 INSERT INTO product_maat (product_id, maat_id) values (8, 5);
 
+-- de maten die de model aanhebben op de foto
 INSERT INTO model (name, id) values ('Small', 1);
 INSERT INTO model (name, id) values ('Medium', 2);
 INSERT INTO model (name, id) values ('One Size', 3);
