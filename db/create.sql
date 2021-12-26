@@ -56,6 +56,12 @@ CREATE TABLE product_maat (
   product_id INTEGER
 );
 
+DROP TABLE IF EXISTS model;
+CREATE TABLE model (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name VARCHAR(25)
+);
+
 
 
 
