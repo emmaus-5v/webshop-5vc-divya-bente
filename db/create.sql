@@ -69,7 +69,7 @@ CREATE TABLE product_maat (
 --
 
 insert into products (name, description, code, price, categorie_id, materiaal_id) values 
-('Oui x Oui Baquette Tas - Koeienprint', 'De originele Oui x Oui Baguette Tas met koeienprint. De tas heeft een zwarte band dat verstelbaar is.', '816905633-0', 29.99, 1, 4);
+('Oui x Oui Baquette Tas - Koeienprint', 'De originele Oui x Oui Baguette Tas met koeienprint. De tas heeft een zwarte band dat verstelbaar is.', '816905633-0', 24.99, 1, 5);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id) values 
 ('Dress Bente', 'Een korte jurk met een vierkante halsopening met smal elastiek en smokwerk onder de borst. De jurk heeft korte pofmouwen met smal elastiek onderaan en een naad in de taille.', '077030122-3', 24.95, 2, 1);
@@ -93,10 +93,10 @@ insert into products (name, description, code, price, categorie_id, materiaal_id
 ('Joggingspak Bliksem', 'Set van trui en jogginsbroek met een bliksem patroon over het gehele set. Zowel de trui als de joggingsbroek hebben een elastische band. ', '492662523-7', 24.50,  3, 2);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id) values 
-('Oui x Oui Baquette Tas - Zebraprint', 'De Oui x Oui Baguette Tas met zebraprint. De tas heeft een bijpassende zebraprint band dat verstelbaar is.', '036829013-7', 14.99, 1, 4);
+('Oui x Oui Baquette Tas - Zebraprint', 'De Oui x Oui Baguette Tas met zebraprint. De tas heeft een bijpassende zebraprint band dat verstelbaar is.', '036829013-7', 14.99, 1, 5);
 
 insert into products (name, description, code, price, categorie_id, materiaal_id) values 
-('Oui x Oui Baquette Tas - Bloemenprint', 'De Oui x Oui Baguette Tas met bloemenprint. De tas heeft een Madelief print over de gehele tas. De band is niet verstelbaar, wel afneembaar.', '176036297-2', 14.99, 3, 4);
+('Oui x Oui Baquette Tas - Bloemenprint', 'De Oui x Oui Baguette Tas met bloemenprint. De tas heeft een Madelief print over de gehele tas. De band is niet verstelbaar, wel afneembaar.', '176036297-2', 14.99, 1, 5);
 
 INSERT INTO kleur (name, id) values ('zwart', 1);
 INSERT INTO kleur (name, id) values ('wit', 2);
@@ -124,6 +124,7 @@ INSERT INTO materiaal (name, id) values ('katoen', 1);
 INSERT INTO materiaal (name, id) values ('polyester', 2);
 INSERT INTO materiaal (name, id) values ('satijn', 3);
 INSERT INTO materiaal (name, id) values ('wol', 4);
+INSERT INTO materiaal (name, id) values ('nep leer', 5);
 
 INSERT INTO categorie (name, id) values ('tas', 1);
 INSERT INTO categorie (name, id) values ('jurk', 2);
